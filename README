@@ -30,6 +30,6 @@ async function getData() {
     const response = await axios.get('http://localhost:9125/data');
     console.log('GET response:', response.data);
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 }
