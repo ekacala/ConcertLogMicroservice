@@ -1,0 +1,2 @@
+Set-up database:
+Create file called passwords.js. Include the variables user (for your database's username), password (for your database's password), and database (for the name of your database). Include a module.exports() line at the end of the passwords.js file to export the variables to the db-connector.js file.
