@@ -10,7 +10,8 @@ var pool = mysql.createPool({
     host            : 'localhost',
     user            : user,
     password        : password,
-    database        : database
+    database        : database,
+    dateStrings     : true
 })
 
 // Export it for use in our applicaiton

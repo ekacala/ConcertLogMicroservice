@@ -32,6 +32,7 @@ let venue;
 let dateAttended;
 let notes;
 
+// Send concert information for the specified user back to the client
 app.post('/submit', (req, res) => {
     recievedData = req.body;
     console.log('Recieved data:', recievedData);
