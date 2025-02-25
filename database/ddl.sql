@@ -31,8 +31,7 @@ VALUES ('Brian', 'Ware'),
 INSERT INTO Concerts (userID, artist, venue, dateAttended, notes)
 VALUES (1, 'Green Day', 'Globe Life Field', '2024-09-11', 'The band was very animated and fun to watch.'),
 (1, 'Taylor Swift', 'AT&T Stadium', '2023-03-31', NULL), 
-(1, 'Dying Wish', 'The Studio at The Factory', '2024-10-10', 'There were a lot of openers for this show. It was also a lot of fun to watch people hardcore dance in the pit.'),
-(1, 'Test', 'Test', '2025-01-01', NULL);
+(1, 'Dying Wish', 'The Studio at The Factory', '2024-10-10', 'There were a lot of openers for this show. It was also a lot of fun to watch people hardcore dance in the pit.');
 
 SET FOREIGN_KEY_CHECKS = 1;
 COMMIT;
