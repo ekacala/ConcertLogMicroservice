@@ -38,3 +38,6 @@ async function getData() {
     console.error(error);
   }
 }
+
+C) UML Diagram:
+![Screenshot of a UML Diagram detailing how the microservice communicates with other programs](UML Diagram.png)
