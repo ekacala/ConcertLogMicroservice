@@ -6,17 +6,17 @@ Test Program folder: This folder contains my test program. It is meant to run as
 A) How to REQUEST data:
 To request data for a particular user from the microservice use an async function containing an axios.post request to http://localhost:9125/submit.
 Example:
-
-async function postData() {
-  try {
-    const dataToSend = {"userID":1};
-    const response = await axios.post('http://localhost:9125/submit', dataToSend);
-    console.log('POST response:', response.data);
-  } catch (error) {
-    console.error(error);
-  }
+<pre>
+async function postData() { <br />
+  try { <br />
+    const dataToSend = {"userID":1}; <br />
+    const response = await axios.post('http://localhost:9125/submit', dataToSend); <br />
+    console.log('POST response:', response.data); <br />
+  } catch (error) { <br />
+    console.error(error); <br />
+  } <br />
 }
-
+</pre>
 To request ADDING a new concert to a user's profile, make an axios.post request to http://localhost:9125/submitNewData. The data sent should be the userID, artist, venue, dateAttended, and notes. Only notes may be "NULL".
 
 To request DELETING a concert from a user's profile, make an axios.post request to http://localhost:9125/deleteConcertData. The data sent should be the concertID for the concert to be deleted.
