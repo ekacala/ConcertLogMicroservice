@@ -40,4 +40,4 @@ async function getData() {
 }
 
 C) UML Diagram:
-![Screenshot of a UML Diagram detailing how the microservice communicates with other programs](UML Diagram.png)
+[Screenshot of a UML Diagram detailing how the microservice communicates with other programs](UML Diagram.png)
