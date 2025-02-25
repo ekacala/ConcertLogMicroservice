@@ -1,7 +1,7 @@
 Set-up database:
 Create file called passwords.js in the database folder for the microservice. Include the variables user (for your database's username), password (for your database's password), and database (for the  name of your database). Include a module.exports() line at the end of the passwords.js file to export the variables to the db-connector.js file. (This file was not included in the github repository because it contains sensitive information. However it is necessary for running the microservice's database.)
 
-Test Program folder: This folder contains my test program. It is not part of the main microservice.
+Test Program folder: This folder contains my test program. It is meant to run as a seperate program and is not part of the main microservice.
 
 A) How to REQUEST data:
 To request data for a particular user from the microservice use an async function containing an axios.post request to http://localhost:9125/submit.
